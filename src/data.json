@@ -1,0 +1,19 @@
+{
+  "modal": [
+    {
+      "header": "Header-1",
+      "img": "",
+      "text": "Text-1"
+    },
+    {
+      "header": "Header-2",
+      "img": "",
+      "text": "Text-2"
+    },
+    {
+      "header": "Header-3",
+      "img": "",
+      "text": "Text-3"
+    }
+  ]
+}

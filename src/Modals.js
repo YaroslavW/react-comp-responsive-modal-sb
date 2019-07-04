@@ -17,10 +17,11 @@ export default class Modals extends React.Component {
   render() {
     const { open } = this.state;
     return (
-      <div>
+      <div key={this.props.index}>
         <button onClick={this.onOpenModal}>Open modal</button>
         <Modal open={open} onClose={this.onCloseModal} center>
           <h2>{this.props.header}</h2>
+          <p>{this.props.text}</p>
         </Modal>
       </div>
     );
